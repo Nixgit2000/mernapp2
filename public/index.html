@@ -16,32 +16,51 @@
 </head>
 <body>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script> 
+$(document).ready(function () {
+    $('div.toshow').fadeIn(5000);
+    $('div.toshow2').delay(7000).fadeIn(4000);
+    $('div.toshow3').delay(5000).fadeIn(4000);
+    $('div.toshow4').delay(9000).fadeIn(4000);
+});
+</script>
 
+
+
+    
 
 
 <div id="container100">
-<img id="logo" src="https://cdn.logojoy.com/wp-content/uploads/2018/07/25120354/architecture18.png" alt="logo"></div>
-<div id="catch-container"><div id="catchphrase">"where architecture meets art"</div></div>
-<table id="contactform">
+<img id="logo"  src="https://cdn.logojoy.com/wp-content/uploads/2018/07/25120354/architecture18.png" alt="logo"></div>
+<div id="catch-container"><div style="display:none;" class="toshow" id="catchphrase">"where architecture meets art"</div></div>
+<div style="display:none;" class="toshow3">
+<table  id="contactform">
 <tr><th class="left">PHONE: </th><td>&nbsp1-955-992-9966</td></tr>
 <tr><th class="left">FAX: </th><td>&nbsp1-955-996-6223</td></tr>
 <tr><th class="left">EMAIL: </th><td>&nbspinfo@architectureoneeight.com</td></tr>
 </table>
+</div>
 
+<div style="display:none;" class="toshow3">
 <table id="contactform2">
 <tr><th class="left2">ADDRESS: </th><td>&nbsp46 Sherman Way</td></tr>
 <tr><th class="left2">CITY: </th><td>&nbspScottsdale, Arizona</td></tr>
 <tr><th class="left2">POSTAL CODE: </th><td>&nbsp55335</td></tr>
 </table>
+</div>
 <br><br><br>
+
+<div style="display:none;" class="toshow2">
 <div id="container89">
 <div id="container90">
 <div id="one">HOME</div><div id="two">HISTORY</div><div id="three">SERVICES</div><div id="four">CONTACT</div>
 </div></div>
+</div>
 <br><br><br>
 
-
-<h3 style="text-align: center; font-family: Arial, Helvetica, sans-serif; color: grey; " >OUR DEDICATED STAFF</h3>
+<div style="display:none;" class="toshow4">
+<h3 style="text-align: center; font-family: Arial, Helvetica, sans-serif; color: grey; " >MEET OUR DEDICATED STAFF</h3>
 <div id="container">
 <div class="card">
 <img src="https://fj-employer-blog.s3.amazonaws.com/employer-blog/wp-content/uploads/2020/08/25093203/benefits-of-flexible-work-for-companies-and-employees_.jpg" alt="Avatar" style="width:100%">
@@ -233,7 +252,7 @@
 <br><br><br>
 
 <div style="color: grey;font-family: Arial, Helvetica, sans-serif; text-align: center;">Copyright 2023 ARCHITECTURE ONE EIGHT</div>
-<br><br><br>
+<br><br><br></div>
 <script src="JS.js"></script>
 <script>
 document.addEventListener('DOMContentLoaded', function() {
@@ -271,16 +290,5 @@ loadEl.textContent = 'Error loading the Firebase SDK, check the console.';
 });
 </script>
 
-<script src="js/jquery-3.2.1.min.js">
-$( document ).ready(function() {
-    $("#one").click(function() {
-        $("#logo").slideup(1000);
-    })
 
-
-
-
-});
-</script>
-</body>
 </html>
