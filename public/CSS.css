@@ -77,16 +77,38 @@ img {
 }
 #container89a {
     background-position: 50% 30%;
-    background-image: url("http://cdn.cnn.com/cnnnext/dam/assets/220905135356-03-manas-bhatia-future-cities-ai.jpg");
+    background-image: url("https://igsmag.com/wp-content/uploads/2017/12/ZHA_LeezaSoho_Atrium_Render_by_MIR.jpg");
+    background-size: cover;
     height: 20vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    animation: scroll1 400s infinite;
+}
+@keyframes scroll1 {
+    0% {background-position: 50% 34%;}
+    50% {background-position: 50% 84%;}
+    100% {background-position: 50% 34%;}
 }
 #container89aa {
     background-position: 50% 50%;
-    background-image: url("http://cdn.cnn.com/cnnnext/dam/assets/220905135356-03-manas-bhatia-future-cities-ai.jpg");
+    background-image: url("https://igsmag.com/wp-content/uploads/2017/12/ZHA_LeezaSoho_Atrium_Render_by_MIR.jpg");
+    background-size: cover;
     height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: scroll2 400s infinite;
+}
+@keyframes scroll2 {
+    0% {background-position: 50% 50%;}
+    50% {background-position: 50% 100%;}
+    100% {background-position: 50% 50%;}
+}
+#container555 {
+    background-position: 50% 50%;
+    background-image: url("https://cdnassets.hw.net/d2/23/7dcf04644b39bdf0f33a1d2e4967/aia-awards-archawards-menildrawinst.jpg");
+    height: 120vh;
     display: flex;
     justify-content: center;
     align-items: center;
