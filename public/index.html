@@ -12,6 +12,7 @@
 <script defer src="/__/firebase/9.17.0/firebase-app-compat.js"></script>
 <script defer src="/__/firebase/init.js?useEmulator=true"></script>
 <link href="CSS.css" rel="stylesheet">
+
 </head>
 <body>
 
@@ -53,7 +54,7 @@
 <div class="card">
 <img src="https://www.betterup.com/hubfs/Blog%20Images/young-woman-writing-at-desk-employee-development.jpg" alt="Avatar" style="width:100%">
 <div class="container">
-<h4><b>Jane Smith, P.Eng</b></h4>
+<h4><b>Jennifer Smith, P.Eng</b></h4>
 <p>Electrical Engineer</p>
 </div>
 </div>
@@ -225,7 +226,7 @@
 <br><br><br>
 <div id="container89">
 <div id="container90">
-<div id="one">HOME</div><div id="two">HISTORY</div><div id="three">SERVICES</div><div id="four">CONTACT</div>
+<div id="one1">HOME</div><div id="two1">HISTORY</div><div id="three1">SERVICES</div><div id="four1">CONTACT</div>
 </div></div>
 
 
@@ -267,6 +268,18 @@ loadEl.textContent = `Firebase SDK loaded with ${features.join(', ')}`;
 console.error(e);
 loadEl.textContent = 'Error loading the Firebase SDK, check the console.';
 }
+});
+</script>
+
+<script src="js/jquery-3.2.1.min.js">
+$( document ).ready(function() {
+    $("#one").click(function() {
+        $("#logo").slideup(1000);
+    })
+
+
+
+
 });
 </script>
 </body>

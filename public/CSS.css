@@ -185,6 +185,22 @@ img {
     box-shadow: 0 6px 6px 0 rgba(0,0,0,0.2);
   }
 
+#one1 {display: flex;font-family: 'Bebas Neue'; font-size:3vh;  width:10rem; justify-content: center; align-items: center; grid-column: 2 / span 2; background-color: rgb(231, 231, 231); text-align: center; border-radius: 10px;margin: 10px;box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);transition: 0.3s;}
+#one1:hover {
+    box-shadow: 0 6px 6px 0 rgba(0,0,0,0.2);
+}
+#two1 {display: flex;font-family: 'Bebas Neue'; font-size:3vh; width:10rem; justify-content: center; align-items: center; grid-column: 4 / span 2; background-color: rgb(231, 231, 231); text-align: center;border-radius: 10px;margin: 10px;box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);transition: 0.3s;}
+#two1:hover {
+    box-shadow: 0 6px 6px 0 rgba(0,0,0,0.2);
+}
+#three1 {display: flex;font-family: 'Bebas Neue'; font-size:3vh; width:10rem; justify-content: center; align-items: center; grid-column: 6 / span 2; background-color: rgb(231, 231, 231); text-align: center;border-radius: 10px;margin: 10px;box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);transition: 0.3s;}
+#three1:hover {
+    box-shadow: 0 6px 6px 0 rgba(0,0,0,0.2);
+}
+#four1 {display: flex;font-family: 'Bebas Neue'; font-size:3vh; width:10rem; justify-content: center; align-items: center; grid-column: 8 / span 2; background-color: rgb(231, 231, 231); text-align: center;border-radius: 10px;margin: 10px;box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);transition: 0.3s;}
+#four1:hover {
+    box-shadow: 0 6px 6px 0 rgba(0,0,0,0.2);
+}
 
 .card {
     margin: 20px;

@@ -38,3 +38,44 @@ four.addEventListener("mouseover", function function1() {
 four.addEventListener("mouseout", function function1() {
     four.style.scale = 1.0;
 })
+
+
+var one1 = document.getElementById("one1");
+
+one1.addEventListener("mouseover", function function1() {
+    one1.style.scale = 1.05;
+    one1.style.fontSize = "3vh"
+})
+one1.addEventListener("mouseout", function function1() {
+    one.style.scale = 1.0;
+})
+
+var two1 = document.getElementById("two1");
+
+two1.addEventListener("mouseover", function function1() {
+    two1.style.scale = 1.05;
+    two1.style.fontSize = "3vh"
+})
+two1.addEventListener("mouseout", function function1() {
+    two1.style.scale = 1.0;
+})
+
+var three1 = document.getElementById("three1");
+
+three1.addEventListener("mouseover", function function1() {
+    three1.style.scale = 1.05;
+    three1.style.fontSize = "3vh"
+})
+three1.addEventListener("mouseout", function function1() {
+    three1.style.scale = 1.0;
+})
+
+var four1 = document.getElementById("four1");
+
+four1.addEventListener("mouseover", function function1() {
+    four1.style.scale = 1.05;
+    four1.style.fontSize = "3vh"
+})
+four1.addEventListener("mouseout", function function1() {
+    four1.style.scale = 1.0;
+})
