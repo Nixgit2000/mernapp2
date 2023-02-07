@@ -66,20 +66,29 @@ img {
     justify-content: center;
     align-items: center;
 }
-
+.js-reveal {
+    opacity: 1;
+    transition: opacity .7s ease-in, margin-top .7s ease-out;
+  }
+  
+  .js-reveal--hidden {
+    opacity: 0;
+    margin-top: 3em;
+  }
 #container89 {
     background-position: 50% 50%;
     background-image: url("https://learn.g2.com/hubfs/iStock-685053710.jpg");
-    height: 15vh;
+    height: 20vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    animation: scroll1 400s infinite;
 }
 #container89a {
     background-position: 50% 30%;
     background-image: url("https://igsmag.com/wp-content/uploads/2017/12/ZHA_LeezaSoho_Atrium_Render_by_MIR.jpg");
     background-size: cover;
-    height: 20vh;
+    height: 60vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -90,29 +99,8 @@ img {
     50% {background-position: 50% 84%;}
     100% {background-position: 50% 34%;}
 }
-#container89aa {
-    background-position: 50% 50%;
-    background-image: url("https://igsmag.com/wp-content/uploads/2017/12/ZHA_LeezaSoho_Atrium_Render_by_MIR.jpg");
-    background-size: cover;
-    height: 20vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    animation: scroll2 400s infinite;
-}
-@keyframes scroll2 {
-    0% {background-position: 50% 50%;}
-    50% {background-position: 50% 100%;}
-    100% {background-position: 50% 50%;}
-}
-#container555 {
-    background-position: 50% 50%;
-    background-image: url("https://cdnassets.hw.net/d2/23/7dcf04644b39bdf0f33a1d2e4967/aia-awards-archawards-menildrawinst.jpg");
-    height: 120vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
+
 #container89b {
     background-position: 50% 40%;
     background-image: url("https://bonestructure.ca/wp-content/uploads/2016/04/85_arriere_light-1030x773.jpg");
@@ -124,25 +112,34 @@ img {
 }
 #container90 {
     background-color: transparent;
-    height: 20vh;
+
       display: grid;
     grid-template-columns: repeat(10, 1fr);
     font-family: Arial, Helvetica, sans-serif;
     height: 5rem;
-  
-}
 
+}
+#container90a {
+    background-color: transparent;
+
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
 #testimonial {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 22vh;
 }
 #banner {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100vw;
-    height: 20vh;
+    height: 25vh;
     background: linear-gradient(rgb(221, 221, 221), rgb(247, 247, 247));
 }
 
@@ -157,8 +154,9 @@ img {
 
 #r1 {
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 4vh;
+    font-size: 3vh;
     font-weight: bold;
+    height: 10vh;
     color: rgb(116, 116, 116);
     display: flex;
     justify-content: center;
@@ -166,13 +164,21 @@ img {
 }
 #r2 {
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 3vh;
+    font-size: 2vh;
+    height: 10vh;
     color: rgb(0, 0, 0);
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
+#container555 {
+    background-position: 50% 50%;
+    background-image: url("https://cdnassets.hw.net/d2/23/7dcf04644b39bdf0f33a1d2e4967/aia-awards-archawards-menildrawinst.jpg");
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 #button {
     border-radius: 50%;
     position: fixed;
@@ -190,36 +196,36 @@ img {
     box-shadow: 0 6px 6px 0 rgba(0,0,0,0.2);
 }
 
-#one {display: flex;font-family: 'Bebas Neue'; font-size:3vh;  width:10rem; justify-content: center; align-items: center; grid-column: 2 / span 2; background-color: rgb(231, 231, 231); text-align: center; border-radius: 10px;margin: 10px;box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);transition: 0.3s;}
+#one {color: rgb(85, 85, 85);display: flex;font-family: 'Bebas Neue'; font-size:3vh;  width:10rem; justify-content: center; align-items: center; grid-column: 2 / span 2; background-color: rgb(231, 231, 231); text-align: center; border-radius: 10px;margin: 10px;box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);transition: 0.3s;}
 #one:hover {
     box-shadow: 0 6px 6px 0 rgba(0,0,0,0.2);
   }
-#two {display: flex;font-family: 'Bebas Neue'; font-size:3vh; width:10rem; justify-content: center; align-items: center; grid-column: 4 / span 2; background-color: rgb(231, 231, 231); text-align: center;border-radius: 10px;margin: 10px;box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);transition: 0.3s;}
+#two {color: rgb(85, 85, 85);display: flex;font-family: 'Bebas Neue'; font-size:3vh; width:10rem; justify-content: center; align-items: center; grid-column: 4 / span 2; background-color: rgb(231, 231, 231); text-align: center;border-radius: 10px;margin: 10px;box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);transition: 0.3s;}
 #two:hover {
     box-shadow: 0 6px 6px 0 rgba(0,0,0,0.2);
   }
-#three {display: flex;font-family: 'Bebas Neue'; font-size:3vh; width:10rem; justify-content: center; align-items: center; grid-column: 6 / span 2; background-color: rgb(231, 231, 231); text-align: center;border-radius: 10px;margin: 10px;box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);transition: 0.3s;}
+#three {color: rgb(85, 85, 85);display: flex;font-family: 'Bebas Neue'; font-size:3vh; width:10rem; justify-content: center; align-items: center; grid-column: 6 / span 2; background-color: rgb(231, 231, 231); text-align: center;border-radius: 10px;margin: 10px;box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);transition: 0.3s;}
 #three:hover {
     box-shadow: 0 6px 6px 0 rgba(0,0,0,0.2);
   }
-#four {display: flex;font-family: 'Bebas Neue'; font-size:3vh; width:10rem; justify-content: center; align-items: center; grid-column: 8 / span 2; background-color: rgb(231, 231, 231); text-align: center;border-radius: 10px;margin: 10px;box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);transition: 0.3s;}
+#four {color: rgb(85, 85, 85);display: flex;font-family: 'Bebas Neue'; font-size:3vh; width:10rem; justify-content: center; align-items: center; grid-column: 8 / span 2; background-color: rgb(231, 231, 231); text-align: center;border-radius: 10px;margin: 10px;box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);transition: 0.3s;}
 #four:hover {
     box-shadow: 0 6px 6px 0 rgba(0,0,0,0.2);
   }
 
-#one1 {display: flex;font-family: 'Bebas Neue'; font-size:3vh;  width:10rem; justify-content: center; align-items: center; grid-column: 2 / span 2; background-color: rgb(231, 231, 231); text-align: center; border-radius: 10px;margin: 10px;box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);transition: 0.3s;}
+#one1 {color: rgb(85, 85, 85);display: flex;font-family: 'Bebas Neue'; font-size:3vh;  width:10rem; justify-content: center; align-items: center; grid-column: 2 / span 2; background-color: rgb(231, 231, 231); text-align: center; border-radius: 10px;margin: 10px;box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);transition: 0.3s;}
 #one1:hover {
     box-shadow: 0 6px 6px 0 rgba(0,0,0,0.2);
 }
-#two1 {display: flex;font-family: 'Bebas Neue'; font-size:3vh; width:10rem; justify-content: center; align-items: center; grid-column: 4 / span 2; background-color: rgb(231, 231, 231); text-align: center;border-radius: 10px;margin: 10px;box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);transition: 0.3s;}
+#two1 {color: rgb(85, 85, 85);display: flex;font-family: 'Bebas Neue'; font-size:3vh; width:10rem; justify-content: center; align-items: center; grid-column: 4 / span 2; background-color: rgb(231, 231, 231); text-align: center;border-radius: 10px;margin: 10px;box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);transition: 0.3s;}
 #two1:hover {
     box-shadow: 0 6px 6px 0 rgba(0,0,0,0.2);
 }
-#three1 {display: flex;font-family: 'Bebas Neue'; font-size:3vh; width:10rem; justify-content: center; align-items: center; grid-column: 6 / span 2; background-color: rgb(231, 231, 231); text-align: center;border-radius: 10px;margin: 10px;box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);transition: 0.3s;}
+#three1 {color: rgb(85, 85, 85);display: flex;font-family: 'Bebas Neue'; font-size:3vh; width:10rem; justify-content: center; align-items: center; grid-column: 6 / span 2; background-color: rgb(231, 231, 231); text-align: center;border-radius: 10px;margin: 10px;box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);transition: 0.3s;}
 #three1:hover {
     box-shadow: 0 6px 6px 0 rgba(0,0,0,0.2);
 }
-#four1 {display: flex;font-family: 'Bebas Neue'; font-size:3vh; width:10rem; justify-content: center; align-items: center; grid-column: 8 / span 2; background-color: rgb(231, 231, 231); text-align: center;border-radius: 10px;margin: 10px;box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);transition: 0.3s;}
+#four1 {color: rgb(85, 85, 85);display: flex;font-family: 'Bebas Neue'; font-size:3vh; width:10rem; justify-content: center; align-items: center; grid-column: 8 / span 2; background-color: rgb(231, 231, 231); text-align: center;border-radius: 10px;margin: 10px;box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);transition: 0.3s;}
 #four1:hover {
     box-shadow: 0 6px 6px 0 rgba(0,0,0,0.2);
 }
