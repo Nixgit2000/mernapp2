@@ -66,15 +66,7 @@ img {
     justify-content: center;
     align-items: center;
 }
-.js-reveal {
-    opacity: 1;
-    transition: opacity .7s ease-in, margin-top .7s ease-out;
-  }
-  
-  .js-reveal--hidden {
-    opacity: 0;
-    margin-top: 3em;
-  }
+
 #container89 {
     background-position: 50% 50%;
     background-image: url("https://learn.g2.com/hubfs/iStock-685053710.jpg");
@@ -164,7 +156,7 @@ img {
 }
 #r2 {
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 2vh;
+    font-size: 2.5vh;
     height: 10vh;
     color: rgb(0, 0, 0);
     display: flex;
@@ -231,6 +223,7 @@ img {
 }
 
 .card {
+    
     margin: 20px;
     width: 300px;
     border-radius: 5px;
